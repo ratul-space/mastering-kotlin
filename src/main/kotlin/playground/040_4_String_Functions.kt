@@ -26,7 +26,19 @@ fun main(){
     println(myNmeRev)
 
     val name : String? = myName.orEmpty()
+    println(name)
 
+    val  mySecondNumber : Int = 26
+    try {
+        val result = mySecondNumber / 0
+        println(result)
+    }catch (ex:Exception){
+        ex.printStackTrace()
+        println("something wrong!")
+    }finally {
+        println("Finally done")
+    }
+    println("The end")
 
 
 
