@@ -1,3 +1,5 @@
+package playground
+
 fun main() {
     try {
         sumData(2,8)
@@ -9,7 +11,7 @@ fun main() {
 
 fun sumData(i: Int, j: Int) {
     if (i < 5 ){
-        throw ArithmeticException("verry small number")
+        throw ArithmeticException("very small number")
     }
 
     val r = i + j
