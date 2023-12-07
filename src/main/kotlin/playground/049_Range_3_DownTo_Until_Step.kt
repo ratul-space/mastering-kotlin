@@ -15,6 +15,10 @@ fun main() {
 
     // step
     for (k in 1..20 step 4) {
-        println(k)
+        //println(k)
+    }
+
+    for (h in 10 downTo 1 step 2){
+        println(h)
     }
 }
