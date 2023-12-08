@@ -18,7 +18,7 @@ fun main() {
     println("--------------------")
 
     val myRev = myRange2.reversed()
-    myRev.forEach() {
+    myRev.step(3).forEach() {
         println(it)
     }
 
