@@ -5,15 +5,22 @@ fun main() {
     myRange1.forEach() {
         println(it)
     }
-
+    println("--------------------")
     val myRange: IntRange = 2.rangeTo(9)
     myRange.forEach() {
         println(it)
     }
-
+    println("--------------------")
     val myRange2: IntProgression = 9.downTo(3)
     myRange2.forEach() {
         println(it)
     }
+    println("--------------------")
+
+    val myRev = myRange2.reversed()
+    myRev.forEach() {
+        println(it)
+    }
+
 }
 
