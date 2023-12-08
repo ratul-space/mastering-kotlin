@@ -23,11 +23,14 @@ fun main() {
     }
 
     val firstNumber = myRange2.first
-    val lastNumber = myRange2.last
+    val lastNumber = myRange2.step(3).last
 
     println("First Number $firstNumber \nLast Number $lastNumber")
 //    println("Last Number $lastNumber")
 
+    myRange2.step(3).forEach {
+        println(it)
+    }
 
 }
 
