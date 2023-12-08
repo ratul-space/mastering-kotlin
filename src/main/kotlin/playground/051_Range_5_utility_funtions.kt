@@ -22,5 +22,12 @@ fun main() {
         println(it)
     }
 
+    val firstNumber = myRange2.first
+    val lastNumber = myRange2.last
+
+    println("First Number $firstNumber \nLast Number $lastNumber")
+//    println("Last Number $lastNumber")
+
+
 }
 
