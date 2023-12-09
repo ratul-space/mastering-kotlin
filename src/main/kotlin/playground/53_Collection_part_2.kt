@@ -20,7 +20,7 @@ fun main() {
     m.forEach() {
         println(it)
     }
-    val nl: List<Any> = myList.drop(3)
+    val nl: List<Any> = myList.dropLast(n = 2)
     myList.forEach() {
         println(it)
     }
