@@ -5,5 +5,6 @@ fun main() {
     myList.forEach() {
         println(it)
     }
-
+    val a: Boolean = myList.contains("Samsung")
+    println(a)
 }
