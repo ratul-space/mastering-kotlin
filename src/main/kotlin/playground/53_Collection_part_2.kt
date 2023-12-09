@@ -16,6 +16,10 @@ fun main() {
     println(i)
     val e: Any = myList2.isEmpty()
     println(e)
+    val m: List<Any> = myList.subList(2, 4)
+    m.forEach() {
+        println(it)
+    }
 
 
 }
