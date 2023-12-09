@@ -10,4 +10,9 @@ fun main() {
     println(a)
     val ca: Boolean = myList.containsAll(myList2)
     println(ca)
+    val cac: Any = myList.get(3)
+    println(cac)
 }
+
+
+
