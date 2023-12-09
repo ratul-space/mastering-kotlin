@@ -24,7 +24,7 @@ fun main() {
 //    myList.forEach() {
 //        println(it)
 //    }
-    val mi = myList.listIterator(3)
+    val mi = myList.listIterator(2)
     while (mi.hasNext())
         println(mi.next())
 }
