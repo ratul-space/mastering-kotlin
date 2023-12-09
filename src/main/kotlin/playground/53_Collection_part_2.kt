@@ -2,7 +2,7 @@ package playground
 
 fun main() {
     val myList: List<Any> = listOf<Any>("Dell", "Samsung", "Asus", "Apple", "Dell")
-    val myList2: List<Any> = listOf<Any>("Dell", "Samsung", "Asus")
+    val myList2: List<Any> = listOf<Any>("Dell")
     myList.forEach() {
         println(it)
     }
@@ -14,6 +14,8 @@ fun main() {
     println(cac)
     val i: Int = myList.lastIndexOf("Dell")
     println(i)
+    val e: Any = myList2.isEmpty()
+    println(e)
 
 
 }
