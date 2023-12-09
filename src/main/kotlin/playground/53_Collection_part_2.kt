@@ -12,6 +12,10 @@ fun main() {
     println(ca)
     val cac: Any = myList.get(3)
     println(cac)
+    val i: Int = myList.indexOf("Samsung")
+    println(i)
+
+
 }
 
 
