@@ -36,6 +36,7 @@ fun main() {
         9 to "Asus"
     )
     println(myMap.get(7))
+    println(myMap.getOrDefault(6, "Android"))
 
 
 //    val mySet: MutableSet<Any> = mutableSetOf(1, 3, 5, "microsoft", "apple", "dell", "hp")
