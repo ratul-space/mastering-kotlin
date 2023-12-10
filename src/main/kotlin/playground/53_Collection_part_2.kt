@@ -41,6 +41,11 @@ fun main() {
         println(it)
     }
     println("--------------2")
+
+    mySet.addAll(mySet2)
+    mySet.forEach() {
+        println(it)
+    }
 }
 
 
