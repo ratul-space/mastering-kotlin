@@ -30,6 +30,7 @@ fun main() {
 //    println()
 
     val mySet: MutableSet<Any> = mutableSetOf(1, 3, 5, "microsoft", "apple", "dell", "hp")
+    val mySet2: MutableSet<Any> = mutableSetOf("samsung", 64, 83)
     mySet.forEach {
         println(it)
     }
@@ -39,6 +40,7 @@ fun main() {
     mySet.forEach() {
         println(it)
     }
+
 }
 
 
