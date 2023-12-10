@@ -29,47 +29,57 @@ fun main() {
 //        println(mi.next())
 //    println()
 
-    val mySet: MutableSet<Any> = mutableSetOf(1, 3, 5, "microsoft", "apple", "dell", "hp")
-    val mySet1: HashSet<Any> = hashSetOf(1, 3, 5, "microsoft", "apple", "dell", "hp")
+    val myMap: Map<Int, String> = mapOf(
+
+        3 to "Apple",
+        7 to "Samsung",
+        9 to "Asus"
+    )
+    println(myMap.get(7))
 
 
+//    val mySet: MutableSet<Any> = mutableSetOf(1, 3, 5, "microsoft", "apple", "dell", "hp")
+//    val mySet1: HashSet<Any> = hashSetOf(1, 3, 5, "microsoft", "apple", "dell", "hp")
 
-    mySet.forEach {
 
-        println(it)
-    }
-    println("------------1")
+//    mySet.forEach {
+//
+//        println(it)
+//    }
+//    println("------------1")
+//
+//    mySet.add("asus")
+//
+//    mySet.forEach() {
+//
+//        println(it)
+//    }
+//    println("--------------2")
+//
+//    mySet.clear()
+//
+//    mySet.addAll(mySet)
+//
+//    mySet.forEach() {
+//
+//        println(it)
+//    }
+//    println("---------3")
+//
+////    mySet.removeAll(mySet)
+//
+//    mySet.remove("samsung")
+//
+//    mySet.forEach() {
+//
+//        println(it)
+//
+//    }
+//    mySet1.forEach() {
+//        println(it)
+//    }
 
-    mySet.add("asus")
 
-    mySet.forEach() {
-
-        println(it)
-    }
-    println("--------------2")
-
-    mySet.clear()
-
-    mySet.addAll(mySet)
-
-    mySet.forEach() {
-
-        println(it)
-    }
-    println("---------3")
-
-//    mySet.removeAll(mySet)
-
-    mySet.remove("samsung")
-
-    mySet.forEach() {
-
-        println(it)
-
-    }
-    mySet1.forEach() {
-        println(it)
-    }
 }
 
 
