@@ -35,6 +35,10 @@ fun main() {
     }
     println("------------1")
 
+    mySet.add("asus")
+    mySet.forEach() {
+        println(it)
+    }
 }
 
 
