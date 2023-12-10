@@ -36,6 +36,7 @@ fun main() {
         9 to "Asus"
     )
     println(myMap.get(7))
+    println(myMap[3])
     println(myMap.getOrDefault(6, "Android"))
 
 
