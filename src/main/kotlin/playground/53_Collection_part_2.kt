@@ -33,7 +33,7 @@ fun main() {
     mySet.forEach {
         println(it)
     }
-
+    println("------------1")
 
 }
 
