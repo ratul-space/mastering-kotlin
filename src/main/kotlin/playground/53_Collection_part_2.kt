@@ -49,8 +49,8 @@ fun main() {
     }
     println("---------3")
 
-    mySet.removeAll(mySet)
-//    mySet.remove(64)
+//    mySet.removeAll(mySet)
+    mySet.remove("samsung")
     mySet.forEach() {
         println(it)
     }
