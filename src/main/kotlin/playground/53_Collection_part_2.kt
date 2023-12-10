@@ -30,8 +30,9 @@ fun main() {
 //    println()
 
     val mySet: MutableSet<Any> = mutableSetOf(1, 3, 5, "microsoft", "apple", "dell", "hp")
+    val mySet1: HashSet<Any> = hashSetOf(1, 3, 5, "microsoft", "apple", "dell", "hp")
 
-    val mySet2: MutableSet<Any> = mutableSetOf("samsung", 64, 83)
+
 
     mySet.forEach {
 
@@ -49,7 +50,7 @@ fun main() {
 
     mySet.clear()
 
-    mySet.addAll(mySet2)
+    mySet.addAll(mySet)
 
     mySet.forEach() {
 
@@ -65,6 +66,9 @@ fun main() {
 
         println(it)
 
+    }
+    mySet1.forEach() {
+        println(it)
     }
 }
 
