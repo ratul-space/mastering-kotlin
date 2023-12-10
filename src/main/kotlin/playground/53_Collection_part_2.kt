@@ -48,6 +48,11 @@ fun main() {
         println(it)
     }
     println("---------3")
+
+    mySet.remove(64)
+    mySet.forEach(){
+        println(it)
+    }
 }
 
 
