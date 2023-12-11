@@ -15,13 +15,14 @@ fun main() {
         2 to "Fan",
         5 to "AC"
     )
+
     myMutableMap.putAll(myMap)
 
     myMutableMap.remove(2)
 
     myMutableMap[1] = "Air"
 
-
+    myMutableMap.clear()
 //    myMutableMap.put(1, "Air")
 
     myMutableMap.forEach { t, u ->
