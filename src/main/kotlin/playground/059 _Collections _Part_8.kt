@@ -26,7 +26,8 @@ fun main() {
 
     println("---------------")
 
-      println(myMap.containsKey())
+      println(myMap.containsKey(7))
+      println(myMap.containsValue("Samsung"))
 
 
 
