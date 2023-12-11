@@ -11,5 +11,7 @@ fun main() {
         println("Key: $t - Value: $u")
 
     }
-
+    myMap.forEach() {
+        println("Key: ${it.key} value: ${it.value}")
+    }
 }
