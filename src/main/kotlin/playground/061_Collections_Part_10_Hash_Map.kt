@@ -8,7 +8,7 @@ fun main() {
         1 to "mango",
         3 to "sweet"
     )
-    myHashMap.replace(1, "fire")
+    myHashMap.put(1, "fire")
     myHashMap.forEach { t, u ->
         println("K: $t V: $u")
     }
