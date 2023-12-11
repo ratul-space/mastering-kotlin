@@ -1,32 +1,17 @@
 package playground
 
+import kotlin.coroutines.ContinuationInterceptor
+
 fun main() {
-    val myMap: MutableMap<Int, String> = mutableMapOf(
+    val myMutableMap: MutableMap<Int, String> = mutableMapOf(
 
         3 to "Apple",
         7 to "Samsung",
         9 to "Asus"
     )
 
-    myMap.forEach() { t, u ->
-
-        println("Key: $t - Value: $u")
+    myMutableMap.put(1, "Air")
+    myMutableMap.forEach { t, u ->
+        println("K: $t - V: $u")
     }
-    println("---------------")
-
-    myMap.forEach() {
-
-        println("Key: ${it.key} value: ${it.value}")
-    }
-    println("---------------")
-
-    for (k in myMap.keys)
-
-        println("Key: $k Value: ${myMap[k]}")
-
-    println("---------------")
-
-    println(myMap.containsKey(7))
-    println(myMap.containsValue("Samsung"))
-
 }
