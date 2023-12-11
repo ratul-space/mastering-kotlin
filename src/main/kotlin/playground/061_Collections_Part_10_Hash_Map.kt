@@ -10,8 +10,8 @@ fun main() {
     )
     myHashMap.forEach { t, u ->
         println("K: $t V: $u")
-
     }
+    println("total: ${myHashMap.count()}")
 
 }
 
