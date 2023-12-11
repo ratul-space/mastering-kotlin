@@ -17,6 +17,8 @@ fun main() {
     )
     myMutableMap.putAll(myMap)
 
+    myMutableMap.remove(2)
+
     myMutableMap[1] = "Air"
 
 
