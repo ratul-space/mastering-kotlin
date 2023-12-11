@@ -10,7 +10,7 @@ fun main() {
         9 to "Asus"
     )
 
-    myMutableMap.put(1, "Air")
+    myMutableMap[1] = "Air"
     myMutableMap.forEach { t, u ->
         println("K: $t - V: $u")
     }
