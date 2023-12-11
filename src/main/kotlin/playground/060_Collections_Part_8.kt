@@ -15,12 +15,10 @@ fun main() {
         2 to "Fan",
         5 to "AC"
     )
-
-
-
-
+    myMutableMap.putAll(myMap)
 
     myMutableMap[1] = "Air"
+
 
 //    myMutableMap.put(1, "Air")
 
