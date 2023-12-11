@@ -9,6 +9,7 @@ fun main() {
     )
     myMap.forEach() { t, u ->
         println("Key: $t - Value: $u")
+
     }
 
 }
