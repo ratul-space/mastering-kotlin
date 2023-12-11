@@ -14,4 +14,6 @@ fun main() {
     myMap.forEach() {
         println("Key: ${it.key} value: ${it.value}")
     }
+    for (k in myMap.keys)
+        println("Key: $k Value: ${myMap[k]}")
 }
