@@ -14,4 +14,10 @@ fun main() {
         println(it)
     }
     println("Last index ${mal.lastIndexOf("Dell")}")
+
+    mal.remove("Hp")
+    mal.forEach() {
+        println(it)
+    }
+
 }
