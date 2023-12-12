@@ -4,8 +4,8 @@ fun main() {
     val mal: ArrayList<String> = arrayListOf(
         "Samsung", "Dell", "Apple"
     )
-//    mal.add("Asus")
-//    mal.forEach() {
-//        println(it)A
-//    }
+    mal.add("Asus")
+    mal.forEach() {
+        println(it)
+    }
 }
