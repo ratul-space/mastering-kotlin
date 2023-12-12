@@ -7,6 +7,7 @@ fun main() {
     val mal2: ArrayList<String> = arrayListOf(
         "Dell", "Hp"
     )
+    println("My item: ${mal.get(2)}")
     mal.add("Asus")
 //    mal.clear()
     mal.addAll(mal2)
