@@ -8,6 +8,7 @@ fun main() {
         "Dell", "Hp"
     )
     println("My item: ${mal.get(2)}")
+    println("Total: ${mal.count()}")
     mal.add("Asus")
 //    mal.clear()
     mal.addAll(mal2)
