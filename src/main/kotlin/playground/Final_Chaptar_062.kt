@@ -19,5 +19,6 @@ fun main() {
     mal.forEach() {
         println(it)
     }
-
+    val msa: String = mal.toString()
+    println(msa)
 }
