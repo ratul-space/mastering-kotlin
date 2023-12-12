@@ -7,9 +7,10 @@ fun main() {
     val mal2: ArrayList<String> = arrayListOf(
         "Dell", "Hp"
     )
-//    mal.add("Asus")
-//    mal.addAll(mal2)
-//    mal.forEach() {
-//        println(it)
+    mal.add("Asus")
+    mal.clear()
+    mal.addAll(mal2)
+    mal.forEach() {
+        println(it)
     }
 }
