@@ -8,9 +8,10 @@ fun main() {
         "Dell", "Hp"
     )
     mal.add("Asus")
-    mal.clear()
+//    mal.clear()
     mal.addAll(mal2)
     mal.forEach() {
         println(it)
     }
+    println("Last index ${mal.lastIndexOf("Dell")}")
 }
